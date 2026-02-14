@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Alisha ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Music toggle -->
+  <div class="music-toggle" id="musicToggle">🔇</div>
+
+  <!-- HERO -->
+  <section class="section hero">
+    <h1>Hey Alisha ❤️</h1>
+    <div class="sub">From Anubhav, with love…</div>
+    <div class="heart-btn" id="heartBtn" title="Click me">❤️</div>
+  </section>
+
+  <!-- MESSAGE -->
+  <section class="section">
+    <div class="card" id="messageCard">
+      <h2>You are my favorite notification.</h2>
+      <p class="msg">
+        My best algorithm.<br>
+        My most beautiful constant. 💕<br><br>
+        And honestly... every line of my life makes more sense with you in it.
+      </p>
+    </div>
+  </section>
+
+  <!-- OPEN WHEN LETTERS -->
+  <section class="section">
+    <h2 class="letters-title">Open When… 💌</h2>
+
+    <div class="letters-container">
+      <div class="letter-card" data-letter="sad">Open when you're feeling sad</div>
+      <div class="letter-card" data-letter="miss">Open when you miss me</div>
+      <div class="letter-card" data-letter="sleep">Open when you can’t sleep</div>
+      <div class="letter-card" data-letter="motivation">Open when you need motivation</div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="section">
+    <div class="final">Happy Valentine's Day Alisha 💝</div>
+    <p class="sign">Forever yours,<br>Anubhav</p>
+  </section>
+
+  <footer>Made with ❤️ by Anubhav for Alisha</footer>
+
+  <!-- Audio -->
+  <audio id="bgMusic" loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- Letter Popup (Envelope) -->
+  <div class="letter-popup" id="letterPopup">
+    <div class="envelope" id="envelope">
+      <div class="envelope-flap"></div>
+
+      <div class="letter-paper">
+        <span class="close-letter" id="closeLetter">&times;</span>
+        <p id="letterText"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
